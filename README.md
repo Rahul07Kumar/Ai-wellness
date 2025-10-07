@@ -23,9 +23,9 @@ If building a mobile version (React Native / Expo):
 - **Android**: Run `./gradlew assembleDebug` or launch from Android Studio.
 
 ### 🎥 Demo
-Attach your screen recording or a deployed web link (Render / Vercel / Netlify).  
+
 Example:  
-> [Live Demo](https://ai-wellness-recommendation.vercel.app)
+> [Live Demo](https://ai-wellness-cbyr.onrender.com)
 
 ---
 
@@ -102,10 +102,33 @@ src/
 
 ## 🖼️ 5. Screenshots / Screen Recording
 
-Include screenshots or screen recording of:  
-1. Profile input screen  
-2. Tip board view  
-3. Tip details with explanation & steps  
+
+
+1. Profile input screen
+   
+   <img width="90%" height="926" alt="image" src="https://github.com/user-attachments/assets/49c5c555-c29e-4bdd-b4b6-026a1909e8af" />
+   <img width="90%" height="928" alt="image" src="https://github.com/user-attachments/assets/f25f9dc9-4a60-4459-8bde-20f19767ec3b" />
+
+
+2. Tip board view
+   
+   <img width="90%" height="926" alt="image" src="https://github.com/user-attachments/assets/04f7e447-5b39-4307-97d9-432c289f3f1c" />
+
+3. Tip details with explanation & steps
+
+   <img width="90%" height="927" alt="image" src="https://github.com/user-attachments/assets/72d7b478-b25e-4da1-b128-ff06d3320268" />
+   <img width="90%" height="929" alt="image" src="https://github.com/user-attachments/assets/fd0161f5-1202-40f7-a4b3-78a951a8be26" />
+
+4. Saved tips
+   
+   <img width="90%" height="923" alt="image" src="https://github.com/user-attachments/assets/9f60b5ee-e69e-458a-a6c0-7f2bc8926dbc" />
+
+5. **DEMO VIDEO**
+   
+
+https://github.com/user-attachments/assets/1bc13ce8-d765-497f-bf3e-7c969efe16d0
+
+
 
 ---
 
@@ -122,11 +145,11 @@ Include screenshots or screen recording of:
 
 - Added emoji-based tip icons for better UI feedback.  
 - Smooth card animations using Tailwind transitions.  
-- Retry mechanism for failed AI API calls.  
+- 3 Times retry mechanism for failed AI API calls.  
 - Context-based state sharing for cleaner codebase.
+- Take custom input from Users, If wellness option is not available.
 
 ---
 
 **Author:** Rahul Kumar  
 **Tech Stack:** React.js (Vite) • TypeScript • Tailwind CSS • Google Gemini API  
-**License:** MIT
